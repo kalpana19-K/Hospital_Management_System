@@ -1,57 +1,75 @@
-🩺 **Policy Management System**
-A Spring Boot-based Hospital Management System designed to efficiently manage hospital operations including patient records, doctor information, appointments.
+🎯 **Policy Management System**
 
 
-**💻 Tech Stack**
-Layer	-> Technology
-Language ->	Java
-Framework ->	Spring Boot
-Build Tool ->	Maven
-ORM	Spring Data -> JPA
-Database ->	MySQL
-Code Simplifier ->	Lombok
-Dependency ->	Spring Web
+A Full Stack Insurance Policy Management System built using Java, Spring Boot, React.js, MySQL, and JWT Authentication for managing customer onboarding, policy issuance, premium tracking, and claims workflows.
+
+---
+
+ 💻Features
+
+- User Authentication & Authorization (JWT)
+- Customer Onboarding
+- Policy Creation & Management
+- Premium Tracking
+- Claims Management
+- Responsive Dashboard UI
+- RESTful APIs
+- Role-Based Access Control (RBAC)
+
+---
+
+🔎 Tech Stack
+
+🧩 Frontend
+- React.js
+- Redux Toolkit
+- JavaScript
+- HTML5
+- CSS3
+- Axios
+
+🔗 Backend
+- Java 17
+- Spring Boot
+- Spring Security
+- REST APIs
+- JPA/Hibernate
+
+🔰 Database
+- MySQL
 
 
-🔰 **Features**
-👉 Patient registration and management
-👉 Doctor information system
-👉 Appointment booking and tracking
-👉 Department-wise organization
-👉 Admin and user roles (extendable)
-👉 RESTful APIs for integration
-👉 MySQL database integration
 
-🗃️ **Project Structure**
-hospital-management-system/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.example.hms/
-│   │   │       ├── controller/
-│   │   │       ├── entity/
-│   │   │       ├── repository/
-│   │   │       ├── service/
-│   │   │       └── HospitalManagementSystemApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── data.sql (optional)
-├── pom.xml
-└── README.md
+---
 
-✅** Prerequisites**
-• Java 24 
-• Maven
-• MySQL Server
+👉 Architecture
 
-🔌** Example Endpoints** Example Endpoints
-• HTTP Method	Endpoint	Description
-• GET	/patients	List all patients
-• POST	/patients	Register a new patient
-• GET	/doctors	List all doctors
-• POST	/appointments	Book a new appointment HTTP Method	Endpoint	Description
-• GET	/patients	List all patients
-• POST	/patients	Register a new patient
-• GET	/doctors	List all doctors
-• POST	/appointments	Book a new appointment
+Frontend (React.js)
+↓
+REST APIs (Spring Boot)
+↓
+MySQL Database
+
+---
+
+
+
+
+
+
+
+
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /auth/login | User Login |
+| POST | /policy/create | Create Policy |
+| GET | /policy/all | Get All Policies |
+| PUT | /policy/update/{id} | Update Policy |
+| DELETE | /policy/delete/{id} | Delete Policy |
+
+---
+
 
