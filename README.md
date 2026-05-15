@@ -1,4 +1,4 @@
-🩺 **Hospital Management System**
+🩺 **Policy Management System**
 A Spring Boot-based Hospital Management System designed to efficiently manage hospital operations including patient records, doctor information, appointments.
 
 
